@@ -14,8 +14,8 @@ def parse_table(path):
 
 def deal_csv(path):
     print("input: " + path)
-    output_path = os.path.dirname(path)+'\output.csv'
-    print("input: " + output_path)
+    output_path = os.path.dirname(path)+'/output.csv'
+    print("output: " + output_path)
     table = parse_table(path)
     # PO Document+PO Item # Confirmation Category with AB without LA
     checktable = {}
